@@ -1,0 +1,25 @@
+.pagina404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pagina404 h1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.pagina404 button {
+    border: none;
+    background-color: rgb(45, 45, 186);
+    padding: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 3em;
+}
+
+.pagina404 button:hover {
+    cursor: pointer;
+    background-color: rgb(34, 34, 140);;
+}

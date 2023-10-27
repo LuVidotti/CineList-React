@@ -1,0 +1,78 @@
+.filme-especifico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 5em;
+}
+
+.filme-especifico h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.poster {
+    margin-bottom: 2em;
+}
+
+.descricao {
+    font-weight: 400;
+    margin-bottom: 2em;
+    font-size: 22px;
+}
+
+.generos {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.filme-especifico p {
+    margin-bottom: 2em;
+}
+
+.filme-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+    gap: 2em;
+}
+
+.nota {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(255, 255, 45);
+}
+
+.orcamento {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 255, 0);
+}
+
+.duracao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 21, 255);
+}
+
+.produtoras {
+    display: flex;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+
+.produtora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.produtora h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
